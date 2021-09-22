@@ -82,3 +82,15 @@ def shortlong (a,b):
         return (b + a + b)
     return (a + b + a)
 print(shortlong("1", "22"))
+#You will be given an array a and a value x.
+#All you need to do is check whether the provided array 
+#contains the value.Array can contain numbers or strings. 
+#X can be either.Return true if the array contains the value, 
+#false if not.
+
+def Check (a,x):
+    if x in a:
+        return True;
+    else:
+        return False;
+print(Check([66,111],67))
